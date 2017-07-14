@@ -1,0 +1,214 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; }
+  body .App {
+    margin: auto;
+    max-width: 800px; }
+  body a {
+    color: blue; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    margin: 5px auto; }
+  body .center {
+    text-align: center; }
+  body .small {
+    font-size: .75em; }
+  body header {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%; }
+    body header .headerImg {
+      background: url(https://pbs.twimg.com/profile_images/875090148509208576/Fsjbn7w8_400x400.jpg);
+      background-color: #000;
+      background-size: cover;
+      border-radius: 64px;
+      display: block;
+      width: 105px;
+      height: 105px;
+      margin: 25px auto;
+      -webkit-transition: opacity .5s ease-in-out;
+      transition: opacity .5s ease-in-out; }
+      body header .headerImg:hover {
+        opacity: .7; }
+    body header nav {
+      display: block;
+      margin: 0 auto;
+      width: 80%; }
+      body header nav ul {
+        border-bottom: 1px solid #eee;
+        list-style: none;
+        text-align: center;
+        padding: 0 0 15px 0;
+        margin-bottom: 0; }
+        body header nav ul li {
+          display: inline-block;
+          padding: 0;
+          margin: 0 25px; }
+          body header nav ul li a {
+            color: #000;
+            font-size: 1.2em;
+            padding: 3px 20px;
+            text-decoration: none;
+            -webkit-transition: background-color 0.5s ease-in-out, color 0.4s ease-in-out;
+            transition: background-color 0.5s ease-in-out, color 0.4s ease-in-out; }
+            body header nav ul li a.active {
+              background-color: #000;
+              color: #fff; }
+            body header nav ul li a:hover {
+              background-color: #000;
+              color: #fff; }
+  body .wrapper {
+    padding: 1% 15px 60px; }
+    body .wrapper .projectList {
+      margin: 15px; }
+      body .wrapper .projectList .project {
+        display: inline-block;
+        width: 40%;
+        margin: 15px 2.5%;
+        padding: 15px 2.5%;
+        text-align: center;
+        background-color: rgba(200, 200, 200, 0);
+        -webkit-transition: background-color .25s ease-in;
+        transition: background-color .25s ease-in; }
+        body .wrapper .projectList .project h2 {
+          font-size: 1em; }
+        body .wrapper .projectList .project h5 {
+          font-weight: normal;
+          font-style: italic; }
+        body .wrapper .projectList .project:hover {
+          cursor: pointer;
+          background-color: rgba(200, 200, 200, 0.5);
+          -webkit-transition: background-color .25s ease-out;
+          transition: background-color .25s ease-out; }
+    body .wrapper .vidContainer {
+      display: block;
+      width: 100%; }
+      body .wrapper .vidContainer iframe {
+        display: block;
+        margin: 25px auto;
+        max-width: 560px; }
+      body .wrapper .vidContainer a.youtube {
+        color: #e62117;
+        text-decoration: none; }
+        body .wrapper .vidContainer a.youtube:hover {
+          text-decoration: underline; }
+    body .wrapper.contact a {
+      color: #000;
+      text-decoration: none; }
+      body .wrapper.contact a:hover {
+        text-decoration: underline; }
+    body .wrapper.contact p.gmail a {
+      background: url("../img/icons/gmail.png") 0 50% no-repeat;
+      background-size: 20px 16px;
+      padding: 5px 5px 5px 26px; }
+    body .wrapper.contact p.linked a {
+      background: url("../img/icons/linked.png") 0 50% no-repeat;
+      background-size: 20px 20px;
+      padding: 5px 5px 5px 25px; }
+    body .wrapper.contact p.location {
+      background: url("../img/icons/location.png") 0 50% no-repeat;
+      background-size: 20px 20px;
+      display: table;
+      margin: 0 auto;
+      padding: 5px 5px 5px 24px; }
+    body .wrapper.contact p.resume {
+      margin-top: 50px; }
+      body .wrapper.contact p.resume a {
+        font-weight: bold; }
+  body .projectModal h3, body .projectModal h5 {
+    text-align: center; }
+  body .projectModal h5 {
+    font-weight: normal;
+    font-style: italic; }
+  body .projectModal .projectDetails {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 30px; }
+    body .projectModal .projectDetails p {
+      display: block; }
+    body .projectModal .projectDetails span {
+      border-bottom: 1px #eee solid;
+      font-style: italic;
+      padding-bottom: 2px; }
+    body .projectModal .projectDetails ul {
+      margin: 15px 0;
+      list-style-type: square; }
+    body .projectModal .projectDetails a {
+      background-color: #000;
+      color: #fff;
+      display: inherit;
+      margin-top: 5px;
+      padding: 5px 10px;
+      text-decoration: none;
+      -webkit-transition: background-color 0.5s ease-in-out, color 0.4s ease-in-out;
+      transition: background-color 0.5s ease-in-out, color 0.4s ease-in-out; }
+      body .projectModal .projectDetails a:hover {
+        background-color: transparent;
+        color: #000; }
+    body .projectModal .projectDetails .carousel {
+      border: 1px solid #eee;
+      margin-bottom: 15px; }
+      body .projectModal .projectDetails .carousel ul {
+        margin: 0; }
+  body a.closeModal {
+    color: #000;
+    float: right;
+    font-size: .9em;
+    margin-top: 30px;
+    padding: 5px 10px; }
+    body a.closeModal:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  body .pageTransition-appear {
+    opacity: 0.01;
+    transition: opacity 1s ease-out; }
+  body .pageTransition-appear.pageTransition-appear-active {
+    opacity: 1;
+    transition: opacity 1s ease-in; }
+  body footer {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    bottom: 0; }
+    body footer span {
+      display: block;
+      font-style: italic;
+      font-size: .9em;
+      margin: 15px auto;
+      text-align: center;
+      width: 50%; }
+
+@media screen and (max-width: 768px) {
+  body header nav ul li {
+    margin: 0px 5px; }
+    body header nav ul li a {
+      padding: 2px 10px; }
+  body .wrapper .landing span {
+    margin: 30px auto;
+    width: 80%; }
+  body .wrapper .vidContainer iframe {
+    width: 100%; }
+  body .wrapper .projectList {
+    margin: 10px 0; }
+    body .wrapper .projectList .project {
+      display: block;
+      margin: 10px 0;
+      padding: 10px 0;
+      width: 100%; }
+      body .wrapper .projectList .project h2 {
+        font-size: .9em; }
+  body .projectModal h3 {
+    font-size: 1.05em; }
+  body .projectModal .projectDetails {
+    padding: 0; }
+    body .projectModal .projectDetails .carousel button {
+      display: none; }
+    body .projectModal .projectDetails p {
+      text-align: center; }
+    body .projectModal .projectDetails ul {
+      margin-bottom: 25px; }
+    body .projectModal .projectDetails span, body .projectModal .projectDetails a {
+      display: table;
+      margin: auto; }
+  body footer {
+    display: none; } }

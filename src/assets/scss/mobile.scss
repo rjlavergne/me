@@ -1,0 +1,56 @@
+@media screen and (max-width : 768px) {
+  body {
+
+    header {
+      nav {
+        ul {
+          li {
+            margin: 0px 5px;
+            a { padding: 2px 10px; }
+          }
+        }
+      }
+    }
+
+    .wrapper {
+
+      .landing {
+        span {
+          margin: 30px auto;
+          width: 80%;
+        }
+      }
+
+      .vidContainer {
+        iframe { width: 100%; }
+      }
+
+      .projectList {
+        margin: 10px 0;
+        .project {
+          display: block;
+          margin: 10px 0;
+          padding: 10px 0;
+          width: 100%;
+          h2 { font-size: .9em; }
+        }
+      }
+
+    }
+
+    .projectModal {
+      h3 { font-size: 1.05em; }
+      .projectDetails {
+        padding: 0;
+        .carousel {
+          button { display: none; }
+        }
+        p { text-align: center; }
+        ul { margin-bottom: 25px; }
+        span, a { display: table; margin: auto; }
+      }
+    }
+
+    footer { display: none; }
+  }
+}
