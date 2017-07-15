@@ -25,10 +25,10 @@ class App extends Component {
 
           <Header />
 
-          <Route exact path='/' component={Landing} />
-          <Route exact path='/Work' component={Work} />
-          <Route exact path='/Play' component={Play} />
-          <Route exact path='/Contact' component={Contact} />
+          <Route exact path='/rjlavergne/' component={Landing} />
+          <Route exact path='/rjlavergne/Work' component={Work} />
+          <Route exact path='/rjlavergne/Play' component={Play} />
+          <Route exact path='/rjlavergne/Contact' component={Contact} />
 
           <Footer />
 
