@@ -12,8 +12,8 @@ class Play extends Component {
         transitionLeave={false}>
 
         <div className="wrapper">
-          <p className="center">I am an avid gamer, and have been since the age of 3. Recent years I&#8217;ve found myself a PC gamer exclusively. I also used to make and edit videos from time to time, and stream on twitch. </p>
-          <p className="center">Some of my work can be found below. Its not the best and I don&#8217;t have many views but I enjoy the video editing process time to time. I used Adobe Premier to make and edit all the videos on my channel.</p>
+          <p className="center">I am an avid gamer, and have been since the age of 3, starting with a Sega Genesis and Sonic the Hedgehog 2. In recent years I&#8217;ve become a PC gamer almost exclusively. I also record and edit gameplay videos and stream live on Twitch time to time. </p>
+          <p className="center">Some of my videos can be found below. They don&#8217;t have many views but I actually kind of enjoy the process of video editing. I used Adobe Premier to create and edit all the videos on my channel.</p>
           <div className="vidContainer">
             <iframe width="75%" height="315" title="Camile" src="https://www.youtube.com/embed/xUfiGS66Nc8?rel=0&amp;controls=1&amp;showinfo=0" frameBorder="0" allowFullScreen></iframe>
             <iframe width="75%" height="315" title="Naut" src="https://www.youtube.com/embed/n0gPGdOHwGM?rel=0&amp;controls=1&amp;showinfo=0" frameBorder="0" allowFullScreen></iframe>
