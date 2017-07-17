@@ -19,7 +19,7 @@ class Contact extends Component {
             <a href="https://www.linkedin.com/in/rjlavergne/" target="_blank" rel="noopener noreferrer" >LinkedIn</a>
           </p>
           <p className="center location">Current City: <strong>Oakland, CA</strong></p>
-          <p className="center resume">Looking for the <a href="resume_v3.pdf" target="_blank">resumé</a>?</p>
+          <p className="center resume">Looking for the <a href={process.env.PUBLIC_URL + '/resume_v3.pdf'} target="_blank">resumé</a>?</p>
         </div>
 
       </ReactCSSTransitionGroup>
