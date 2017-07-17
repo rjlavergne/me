@@ -150,6 +150,8 @@ body {
       margin-bottom: 15px; }
       body .projectModal .projectDetails .carousel ul {
         margin: 0; }
+      body .projectModal .projectDetails .carousel .slide {
+        background-color: #fff; }
   body a.closeModal {
     color: #000;
     float: right;

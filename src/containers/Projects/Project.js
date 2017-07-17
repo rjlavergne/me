@@ -15,7 +15,7 @@ class Project extends Component {
         <div className="projectDetails">
           <Carousel axis="horizontal" showThumbs={false} showArrows={true} showStatus={false} showIndicators={false} autoPlay={true} transitionTime={500} infiniteLoop={true} dynamicHeight emulateTouch>
             {this.props.project.imgLinks.map((imgLink, i)=> {
-               return <div key={i}><img src={imgLink} alt={this.props.project.imgAlt} /></div>
+               return <div key={i}><img src={process.env.PUBLIC_URL + imgLink} alt={this.props.project.imgAlt} /></div>
             })}
 
           </Carousel>
