@@ -7,9 +7,9 @@ export default function() {
       company: 'Pandora Radio',
       summary: 'By this time I had built quite a few stations at Pandora using our template. Including other ones that required a bit of customizing like "Pandora Sessions". This time, however, I begged my boss and traded assignments with a teammate for this one because I wanted to work on it BAD. It was a lot of customization to this one because having a radio show by Questlove was a HUGE deal to the company. I refused to let them down. A year later and quite a few updates later, we customized it further into Questlove 2.0, bringing back the archive of older shows and a new format with segmented episodes.',
       imgLinks: [
-        'https://photos-2.dropbox.com/t/2/AACdRUNzZQaQ6efG86bvLE6PgXKI43GC0_hx1ktV78BImw/12/65634246/png/32x32/1/_/1/2/questlove1.png/EKfr-jIYgCwgAigC/vEncWMCtwDDfs2bsr-LQ4mF07GNSHQLnnXYaCLGh1NI?size=1600x1200&size_mode=3',
-        'https://photos-1.dropbox.com/t/2/AAAPXuxnDFT5Tcg5_Hz4w6V59dsevV6u9lbp_-mfkNrblw/12/65634246/png/32x32/1/_/1/2/questlove2.png/EKfr-jIYgSwgAigC/3pSbTFZgtDbfjPdB_pjpxMV_AbJc8ww_PliRsjWLYqI?size=1600x1200&size_mode=3',
-        'https://photos-6.dropbox.com/t/2/AAByGM2ZqivzTE_dpotsgq7wo95c52BY4xSB0l8VsudyrQ/12/65634246/png/32x32/1/_/1/2/questlove3.png/EKfr-jIYgiwgAigC/6whJybOBOLI5ap5XQLB-Y--wlgyhPfWIpxTyhLpts_E?size=1600x1200&size_mode=3'
+        './questlove1.png',
+        './questlove2.png',
+        './questlove3.png'
       ],
       imgAlt: 'Questlove Supreme Screenshots',
       skills: ['HTML / CSS', 'Apache Velocity', 'Perforce'],
