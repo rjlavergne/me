@@ -59,6 +59,11 @@ body {
               color: #fff; }
   body .wrapper {
     padding: 1% 15px 60px; }
+    body .wrapper.work p a {
+      color: #e62117;
+      text-decoration: none; }
+      body .wrapper.work p a:hover {
+        text-decoration: underline; }
     body .wrapper .projectList {
       margin: 15px; }
       body .wrapper .projectList .project {
